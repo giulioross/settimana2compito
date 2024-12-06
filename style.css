@@ -1,0 +1,85 @@
+/* Your styles here */
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 1%;
+    margin-right: 1%;
+    margin-top: 0%;
+    margin-bottom: 0%;
+
+}
+#blu {
+    width: 100%;
+    background-color: #042e5e;
+    background-size: cover;
+
+}
+header img{
+    width: 5%;
+}
+.menu{
+    display: inline-block;
+    width: auto;
+    color: white;
+    margin: 3px;
+
+}
+#dietro{
+    background-color: #243548;
+}
+main{
+    margin: 10px;
+    
+}
+nav{
+    text-align: center;
+}
+#grosso{background-color: orangered;}
+#shop{
+    color: white;
+    width: 20%;
+    
+}   
+#holliday{
+  background-image: url(../images/bg-img.png);
+  background-position: center;
+  width: 100%;
+  height: auto;
+    
+    
+}
+div h2{
+    font-size: large;
+    font-weight: bold;
+    color: #2b2828;
+    text-align: center;
+}
+div h4{
+    font-size: small;
+    font-weight: bold;
+    text-align:center
+}
+a{color: rgb(49, 170, 231);}
+.box{
+    display: inline-block;
+    border-radius: 25%;
+    width: 23%;
+    height: auto;
+    margin-right: 2px;
+
+    
+}
+footer{
+    text-align: center;
+    margin: 0%;
+
+}
+#chiaro{
+    background-color: #084d9c;
+}
+#up{
+    color: white;
+
+}
+#scuro{
+    background-color: #042e5e;
+}
