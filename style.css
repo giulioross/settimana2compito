@@ -5,81 +5,108 @@ body{
     margin-right: 1%;
     margin-top: 0%;
     margin-bottom: 0%;
+    background-color: rgb(235 235 237);
+
 
 }
 #blu {
-    width: 100%;
     background-color: #042e5e;
-    background-size: cover;
-
 }
 header img{
-    width: 5%;
+    height: 20px;
 }
 .menu{
     display: inline-block;
-    width: auto;
-    color: white;
-    margin: 3px;
+}
 
+.menu a {
+    color:white;
+    text-decoration: none;
+    padding: 10px 20px;
+    display: inline-block;
+    font-size: 16px;
+    transition:background-color 0.3s;
+}
+.menu a:hover{
+    background-color: #575757;
+    border-radius: 5px;
+}
+.menu a:active{
+    background-color: #444;
 }
 #dietro{
-    background-color: #243548;
+    background-color: #064d9e;
+    margin-top: -7px;
 }
-main{
-    margin: 10px;
-    
+section div{
+    background-color: orange;
 }
-nav{
+section div span p{
     text-align: center;
-}
-#grosso{background-color: orangered;}
-#shop{
+    font-size: small;
     color: white;
-    width: 20%;
-    
-}   
-#holliday{
-  background-image: url(../images/bg-img.png);
-  background-position: center;
-  width: 100%;
-  height: auto;
-    
-    
 }
-div h2{
+article div{
+    background-image: url(../images/bg-image.png);
+}
+
+
+
+#holliday{
     font-size: large;
     font-weight: bold;
-    color: #2b2828;
     text-align: center;
+    color: white;
+    padding-top: 30px;
+
 }
-div h4{
-    font-size: small;
+#gift{
+    text-align: center;
+    color: white;
     font-weight: bold;
-    text-align:center
+    font-size: small;
 }
-a{color: rgb(49, 170, 231);}
-.box{
+
+aside{
+    margin: 5px;
+    background-color: white;
+}
+.foto{
     display: inline-block;
-    border-radius: 25%;
-    width: 23%;
-    height: auto;
-    margin-right: 2px;
-
-    
+    align-items: center;
+    margin: 3px;
+    border-radius: 20%;
+    width: 24%;
+    object-fit: cover;
+    height:240px;
+    box-shadow:5px 5px 15px rgba(0,0,0,0.3)
 }
-footer{
+#grosso{
+    width: 100%;
+}
+#scritta{
     text-align: center;
-    margin: 0%;
-
+}
+#grossa{
+    width: 100%;
+}
+#scrittadue{
+    text-align: center;
+}
+footer {
+    text-align: center;
+    align-items: center;
 }
 #chiaro{
-    background-color: #084d9c;
-}
-#up{
-    color: white;
-
+    background-color: #064d9e;
 }
 #scuro{
     background-color: #042e5e;
+}
+footer a {
+    color: white;
+}
+footer img{
+    height: 50px;
+    margin-top: 10px;
 }
